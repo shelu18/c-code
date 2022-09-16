@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+int rows,i,j;
+printf("enter the number of rows");
+scanf("%d",&rows);
+for(i=1;i<=rows; i++){       //this is done for the taking number of rows this rows will determine the number of rows 
+    for (j=1; j<=i; j++){  //we take this loop to print the number of stars or column first it will print the star in the first row according to the loop and 
+        printf("*");      //the \n comes in it after this it will goes to the loop first (i++)and increment the row by one!and then again same it will come under the the loop second (j++) and print the number of column
+    }
+    printf("\n");
+}
+
+    return 0;
+}
